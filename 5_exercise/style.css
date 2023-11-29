@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 32px;
+    text-align: left;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+thead {
+    background-color: blue;
+    color: white;
+}
+
+tbody {
+    background-color: black;
+}
+
+td {
+    padding: 5px;
+}
+
+.departs,
+.platform {
+    width: 20%;
+}
+
+.destination {
+    width: 60%;
+    color: yellow;
+}
